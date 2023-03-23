@@ -1,10 +1,10 @@
 import './App.scss';
-import CvView from './Views/CvView/CvView';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <CvView />
+      <Navbar />
     </div>
   );
 }
