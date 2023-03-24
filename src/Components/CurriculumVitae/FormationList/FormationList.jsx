@@ -1,9 +1,12 @@
 import React from 'react';
 import Formation from '../Formation/Formation';
 import Title from '../Title/Title';
-import "./FormationList.scss"
+import "./FormationList.scss";
+import { useSelector } from 'react-redux';
 
-const FormationList = ({ formations }) => {
+
+const FormationList = () => {
+    const formations = useSelector((state) => state.data.formations)
     return (
         <>
             <Title text='Formations' />
