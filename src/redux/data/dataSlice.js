@@ -1,11 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
-import data from "../../data/cv.json";
+import dataFormation from "../../data/formation.json";
+import dataExperience from "../../data/experiences.json";
+import dataProject from "../../data/project.json";
 
 export const dataSlice = createSlice({
     name: 'data',
     initialState: {
-        experiences: data.experiences,
-        formations: data.formations
+        experiences: dataExperience.experiences,
+        formations: dataFormation.formations,
+        projects: dataProject.projects
     },
     /*
     reducers: {

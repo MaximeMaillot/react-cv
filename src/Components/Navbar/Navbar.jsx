@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.scss";
 import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
-import ProjetView from '../../Views/ProjetView/ProjetView';
+import ProjectView from '../../Views/ProjectView/ProjectView';
 import CvView from "../../Views/CvView/CvView";
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </div>
                 <Routes>
                     <Route path='/' element={<CvView />}></Route>
-                    <Route path='/projets' element={<ProjetView />}></Route>
+                    <Route path='/projets' element={<ProjectView />}></Route>
                     <Route path='/*' element={<CvView />}></Route>
                 </Routes>
                 <div>

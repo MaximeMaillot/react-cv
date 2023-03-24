@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Formation .NET (M2i Formation) HTML/CSS",
+            "type": "Formation",
+            "url": "https://github.com/MaximeMaillot/formation-dotnet-html",
+            "description": "",
+            "stacks": [
+                "HTML",
+                "CSS",
+                "LESS",
+                "BOOTSTRAP"
+            ],
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Formation .NET (M2i Formation) Javascript",
+            "type": "Formation",
+            "url": "https://github.com/MaximeMaillot/formation-dotnet-javascript",
+            "description": "",
+            "stacks": [
+                "Javascript",
+                "ReactJS",
+                "NodeJS",
+                "Typescript",
+                "Express"
+            ],
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "Formation .NET (M2i Formation) C#",
+            "type": "Formation",
+            "url": "https://github.com/MaximeMaillot/formation-dotnet-csharp",
+            "description": "",
+            "stacks": [
+                "C#",
+                ".Net"
+            ],
+            "active": true
+        },
+        {
+            "id": 4,
+            "name": "Belote en Typescript",
+            "type": "Perso",
+            "url": "https://github.com/MaximeMaillot/js-belote",
+            "description": "",
+            "stacks": [
+                "Javascript",
+                "Typescript",
+                "NodeJS"
+            ],
+            "active": true
+        }
+    ]
+}
