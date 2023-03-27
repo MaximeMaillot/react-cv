@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 import ProjectView from '../../Views/Project/ProjectView/ProjectView';
 import CvView from "../../Views/CvView/CvView";
 import ProjectDetailView from '../../Views/Project/ProjectDetailView/ProjectDetailView';
+import Footer from '../Footer/Footer';
 
 const Navbar = () => {
     return (
@@ -26,6 +27,7 @@ const Navbar = () => {
                 <div>
                     <Outlet />
                 </div>
+                <Footer />
             </BrowserRouter >
         </div >
     );
