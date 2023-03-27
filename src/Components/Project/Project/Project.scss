@@ -1,3 +1,15 @@
 .Project {
     border: solid black 2px;
+    width: 22vw;
+}
+
+.Project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project-img {
+    max-width: 100px;
 }

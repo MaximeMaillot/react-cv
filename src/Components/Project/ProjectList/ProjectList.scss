@@ -1,5 +1,7 @@
 .ProjectList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100%;
+    justify-content: space-around;
+    margin-top: 1vh;
 }

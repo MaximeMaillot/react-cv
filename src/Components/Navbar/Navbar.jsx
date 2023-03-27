@@ -1,8 +1,9 @@
 import React from 'react';
 import "./Navbar.scss";
 import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
-import ProjectView from '../../Views/ProjectView/ProjectView';
+import ProjectView from '../../Views/Project/ProjectView/ProjectView';
 import CvView from "../../Views/CvView/CvView";
+import ProjectDetailView from '../../Views/Project/ProjectDetailView/ProjectDetailView';
 
 const Navbar = () => {
     return (
@@ -13,12 +14,13 @@ const Navbar = () => {
                         <Link to="/" >CV</Link>
                     </button>
                     <button>
-                        <Link to="/projets">Projets</Link>
+                        <Link to="/projet">Projets</Link>
                     </button>
                 </div>
                 <Routes>
                     <Route path='/' element={<CvView />}></Route>
-                    <Route path='/projets' element={<ProjectView />}></Route>
+                    <Route path='/projet' element={<ProjectView />}></Route>
+                    <Route path="/projet/:projectId" element={<ProjectDetailView />} />
                     <Route path='/*' element={<CvView />}></Route>
                 </Routes>
                 <div>
