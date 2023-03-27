@@ -4,7 +4,7 @@ import "./User.scss"
 const User = () => {
     return (
         <div className='User'>
-            <img className='User-img' src="./img/pfp.png" alt="profile" />
+            <img className='User-img' src={process.env.PUBLIC_URL + "/img/pfp.png"} alt="profile" />
             <div className='User-name'>Maxime Maillot</div>
             <div className='User-title'>Développeur FullStack</div>
         </div>
