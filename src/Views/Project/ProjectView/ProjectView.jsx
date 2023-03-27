@@ -5,9 +5,9 @@ import "./ProjectView.scss";
 const ProjectView = () => {
 
     return (
-        <>
+        <div className='ProjectView'>
             <ProjectList />
-        </>
+        </div>
     );
 };
 

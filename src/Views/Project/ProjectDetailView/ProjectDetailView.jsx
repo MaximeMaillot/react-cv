@@ -12,7 +12,7 @@ const ProjectDetailView = () => {
     }));
 
     return (
-        <div>
+        <div className='ProjectDetailView'>
             <ProjectDetail project={project} />
         </div>
     );
